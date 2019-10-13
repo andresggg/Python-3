@@ -1,0 +1,9 @@
+class Solution:
+    def removeVowels(self, S: str) -> str:
+        newS = ''
+        for elem in S:
+            if(elem == 'a'or elem == 'e' or elem == 'i' or elem == 'o' or elem == 'u'):
+                continue
+            else:
+                newS = newS + elem
+        return newS
